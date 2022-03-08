@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap");
+body {
+  background: #fff;
+  color: #787878;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #10c9c3;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #1d1d1d;
+  font-size: 12px;
+  font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.btn-primary {
+  background-color: #10c9c3;
+  border-radius: 0;
+  padding: 15px 45px;
+  font-size: 12px;
+  border-color: transparent;
+  font-weight: normal;
+}
+h2 {
+  color: black;
+  font-weight: bold;
+}
+.form-control {
+  border-radius: 0;
+  border-color: transparent;
+}
